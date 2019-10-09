@@ -46,11 +46,12 @@ public class LoginStepdefination {
 		String title=driver.getTitle();
 		System.out.println(title);
 		Assert.assertEquals("Facebook – log in or sign up", title);
+		
+		
+		
+		System.out.println("git testing ");
 	}
 
-	
-	
-	
 	
 	
 	
