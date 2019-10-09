@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="170.694274">
+<testcase classname="Facebook application test" name="login with valid credential" time="118.440568">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[Facebook – log in or sign up]&gt; but was:&lt;[Log in to Facebook | Facebook]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at step_defination.LoginStepdefination.user_is_on_Facebook_Homepage(LoginStepdefination.java:48)&#13;&#10;&#9;at ✽.Then user is on Facebook Homepage(Home.feature:9)&#13;&#10;"><![CDATA[Given user is on facebook loginpage.........................................passed
+When user enter "aashishm431@gmail.com"and "aashish@12".....................passed
+Then user click on loginButton..............................................passed
+Then user is on Facebook Homepage...........................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Facebook – log in or sign up]> but was:<[Log in to Facebook | Facebook]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at step_defination.LoginStepdefination.user_is_on_Facebook_Homepage(LoginStepdefination.java:48)
+	at ✽.Then user is on Facebook Homepage(Home.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Facebook application test" name="login with valid credential 2" time="52.253706">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[Facebook – log in or sign up]&gt; but was:&lt;[Log in to Facebook | Facebook]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at step_defination.LoginStepdefination.user_is_on_Facebook_Homepage(LoginStepdefination.java:48)&#13;&#10;&#9;at ✽.Then user is on Facebook Homepage(Home.feature:9)&#13;&#10;"><![CDATA[Given user is on facebook loginpage.........................................passed
+When user enter "mehta"and "ashish".........................................passed
+Then user click on loginButton..............................................passed
+Then user is on Facebook Homepage...........................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Facebook – log in or sign up]> but was:<[Log in to Facebook | Facebook]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at step_defination.LoginStepdefination.user_is_on_Facebook_Homepage(LoginStepdefination.java:48)
+	at ✽.Then user is on Facebook Homepage(Home.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

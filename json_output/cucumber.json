@@ -1,0 +1,158 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "login with valid credential",
+        "description": "",
+        "id": "facebook-application-test;login-with-valid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97500017261,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on facebook loginpage",
+            "match": {
+              "location": "LoginStepdefination.user_is_on_facebook_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6393310512,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"aashishm431@gmail.com\"and \"aashish@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aashishm431@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "aashish@12",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepdefination.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14439263829,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on loginButton",
+            "match": {
+              "location": "LoginStepdefination.user_click_on_loginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107976090,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Facebook – log in or sign up]\u003e but was:\u003c[Log in to Facebook | Facebook]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat step_defination.LoginStepdefination.user_is_on_Facebook_Homepage(LoginStepdefination.java:48)\r\n\tat ✽.Then user is on Facebook Homepage(Home.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user is on Facebook Homepage",
+            "match": {
+              "location": "LoginStepdefination.user_is_on_Facebook_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "login with valid credential",
+        "description": "",
+        "id": "facebook-application-test;login-with-valid-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41507993443,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on facebook loginpage",
+            "match": {
+              "location": "LoginStepdefination.user_is_on_facebook_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 734077024,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"mehta\"and \"ashish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mehta",
+                  "offset": 12
+                },
+                {
+                  "val": "ashish",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginStepdefination.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9980086135,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on loginButton",
+            "match": {
+              "location": "LoginStepdefination.user_click_on_loginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31549725,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Facebook – log in or sign up]\u003e but was:\u003c[Log in to Facebook | Facebook]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat step_defination.LoginStepdefination.user_is_on_Facebook_Homepage(LoginStepdefination.java:48)\r\n\tat ✽.Then user is on Facebook Homepage(Home.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user is on Facebook Homepage",
+            "match": {
+              "location": "LoginStepdefination.user_is_on_Facebook_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook application test",
+    "description": "",
+    "id": "facebook-application-test",
+    "keyword": "Feature",
+    "uri": "Home.feature"
+  }
+]
